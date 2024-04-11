@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 mongoose.connect(
-  "mongodb+srv://hardikpandey512:eb5RTEMYxSvWKZpW@cluster0.pck9uvt.mongodb.net/paytm"
+  ""
 );
 const UserSchema = new mongoose.Schema({
   email: String,
